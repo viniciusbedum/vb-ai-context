@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "X04 📎 Attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "X01 📥 Inbox",
+  "newLinkFormat": "shortest",
+  "promptDelete": true,
+  "showUnsupportedFiles": false,
+  "useMarkdownLinks": false
+}

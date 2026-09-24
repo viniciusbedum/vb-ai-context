@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vault Setup"
+  short_description: "Set up and personalize this local knowledge base"
+  default_prompt: "Use $vault-setup to configure this knowledge base for my workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "KB Lint"
+  short_description: "Audit links, indexes, and knowledge gaps"
+  default_prompt: "Use $kb-lint to audit the knowledge base and report issues."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "KB Promote"
+  short_description: "Promote curated knowledge into personal notes"
+  default_prompt: "Use $kb-promote to turn this concept into an inbox note."

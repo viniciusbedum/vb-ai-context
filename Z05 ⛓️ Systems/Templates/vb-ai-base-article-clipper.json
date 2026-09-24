@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "VB AI Context - Article",
+  "behavior": "create",
+  "noteNameFormat": "{{title}}",
+  "path": "X03 🗃️ Knowledge Base/01 🧱 Raw/articles",
+  "noteContentFormat": "{{content}}",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "text"
+    },
+    {
+      "name": "published",
+      "value": "{{published}}",
+      "type": "date"
+    },
+    {
+      "name": "clipped",
+      "value": "{{date}}",
+      "type": "date"
+    },
+    {
+      "name": "type",
+      "value": "article",
+      "type": "text"
+    },
+    {
+      "name": "status",
+      "value": "raw",
+      "type": "text"
+    }
+  ],
+  "triggers": []
+}

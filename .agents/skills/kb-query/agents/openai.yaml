@@ -1,0 +1,4 @@
+interface:
+  display_name: "KB Query"
+  short_description: "Answer questions from the local knowledge base"
+  default_prompt: "Use $kb-query to answer this question from my knowledge base."

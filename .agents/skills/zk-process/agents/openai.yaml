@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zettelkasten Process"
+  short_description: "Process notes into connected permanent knowledge"
+  default_prompt: "Use $zk-process to process this note through the Zettelkasten workflow."

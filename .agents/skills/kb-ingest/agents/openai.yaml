@@ -1,0 +1,4 @@
+interface:
+  display_name: "KB Ingest"
+  short_description: "Curate an external source into the knowledge base"
+  default_prompt: "Use $kb-ingest to ingest this source into the knowledge base."

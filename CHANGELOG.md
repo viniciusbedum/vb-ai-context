@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-25
+
+### Added
+- `## Explaining this project` in AGENTS.md: explains the Zettelkasten and Karpathy philosophy behind the two knowledge flows, instead of just citing the folder map.
+- `vault-translate` skill: translates the template's visible structure (folder names, onboarding guide, index prose, template content) into another language, while keeping AGENTS.md, CLAUDE.md, and the skills themselves in English by default.
+- README section for translation support.
+
+### Changed
+- `vault-setup` now points to `AGENTS.md`'s "Explaining this project" section instead of repeating a shorter version of it.
+
 ## [0.1.0] - 2026-09-24
 
 ### Added

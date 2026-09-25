@@ -48,15 +48,15 @@ The visible structure, folder names, the onboarding guide, and index pages, can 
 
 Reliable translation quality:
 
-🇧🇷 Portuguese Brazil
-🇵🇹 Portuguese
-🇪🇸 Spanish
-🇫🇷 French
-🇩🇪 German
-🇮🇹 Italian
-🇯🇵 Japanese
-🇨🇳 Chinese
-🌍 Another Languages
+- 🇧🇷 Portuguese Brazil
+- 🇵🇹 Portuguese
+- 🇪🇸 Spanish
+- 🇫🇷 French
+- 🇩🇪 German
+- 🇮🇹 Italian
+- 🇯🇵 Japanese
+- 🇨🇳 Chinese
+- 🌍 Another Languages
 
 Less common languages still work, but get flagged for review before you treat the vault as ready.
 

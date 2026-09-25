@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vault Translate"
+  short_description: "Translate this template's structure into another language"
+  default_prompt: "Use $vault-translate to translate this template into another language."

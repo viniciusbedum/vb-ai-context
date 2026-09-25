@@ -2,6 +2,30 @@
 
 This repository is a local-first, Markdown-first knowledge base. The files are the source of truth. Codex or Claude supplies the intelligence layer; editors such as VS Code are the everyday interface. Obsidian is recommended — its Web Clipper drives the Knowledge Base capture flow — but not required.
 
+## Explaining this project
+
+When asked what this project does or how it works, explain the philosophy, not just the folder map — adapt this to the conversation, don't recite it verbatim, and skip or shorten it if the user's own message already shows they understand it. Don't spend tokens re-explaining what a README already told them.
+
+- `X02 ✍️ My Thinking/` follows the Zettelkasten method: intentional, first-person thinking. What goes here comes from what the user actually studied or consumed and chose to analyze, written in their own interpretation. It is unique and irreplaceable; an AI cannot generate it on the user's behalf.
+- `X03 🗃️ Knowledge Base/` follows Karpathy's curation approach: a personal wiki built only from external sources the user chose and trusts, not from whatever an AI might find searching the open web. It gives the AI a filtered, high-quality base to reason from instead of researching randomly.
+- Together, the two form a knowledge base unique to the user, usable for personal life and for professional work alike. Connected to MCPs for their preferred external tools (Figma, Meta Ads, Vercel, Canva, and others), that base can drive faster, better-directed AI work in those tools too, grounded in curated context instead of guesswork.
+- `promote` is the only bridge between the two flows.
+
+Folder structure, for reference when explaining or navigating:
+
+- `X01 📥 Inbox/`: temporary capture and promotion destination
+- `X02 ✍️ My Thinking/`: floating, literature, and permanent notes (the Zettelkasten method)
+- `X03 🗃️ Knowledge Base/01 🧱 Raw/`: immutable external sources
+- `X03 🗃️ Knowledge Base/02 🧠 Wiki/`: curated sources, concepts, entities, indexes, and operation log
+- `X04 📎 Attachments/`: local attachments
+- `X05 📝 Daily Notes/`: daily notes
+- `Y01 💼 Projects/`: the user's active, ongoing real-life projects
+- `Y02 🌱 Personal/`: personal notes that are neither abstract thinking nor a dated journal entry
+- `Z04 🤖 AI Workspace/`: AI-produced logs, decisions, research notes, light project plans, outputs, briefings, and references
+- `Z05 ⛓️ Systems/`: templates and operating documentation
+
+If the user wants to learn more, point them to the original sources: the Zettelkasten method at https://zettelkasten.de/overview/, and Karpathy's own note on this curation approach at https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f.
+
 ## Operating rules
 
 - Work only on the request in scope. Read before editing and preserve the existing structure and style.
@@ -134,6 +158,14 @@ Wanting to keep talking about a topic across sessions is not, by itself, a reque
 - `Y02 🌱 Personal/`: personal notes that are neither abstract thinking nor a dated journal entry
 - `Z04 🤖 AI Workspace/`: AI-produced logs, decisions, research notes, light project plans, outputs, briefings, and references
 - `Z05 ⛓️ Systems/`: templates and operating documentation
+
+## Translating this template
+
+This template can be translated into your own language: folder names, the onboarding guide, and index prose. `AGENTS.md`, `CLAUDE.md`, and the skills themselves stay in English by default, so operational instructions don't lose precision — only the literal folder and file names cited inside those files get updated to match; the instructions themselves stay untranslated unless you explicitly ask for that too.
+
+This is different from translating a message, a sentence, or any other piece of text for the user — that is a normal conversational reply, not this capability. Only treat a request as "translate the template" when the user clearly refers to the project, the vault, or its folder structure itself, not to arbitrary text they want translated.
+
+Translating the whole template is a large task and uses a meaningful amount of your plan's tokens. Never run `vault-translate` on a first mention, no matter how explicit the request sounds. Instead, ask for the target language and require the user to confirm intent by name — reply with something like: "To start, tell me the language and say 'use vault-translate to translate it to [language]'." Only execute once the user replies with that explicit invocation. This mirrors GitHub's "type the repo name to confirm deletion" pattern: intentional friction so a costly, structural action never fires from an ambiguous or offhand request.
 
 ## Z04 AI Workspace write triggers
 

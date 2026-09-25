@@ -1,6 +1,6 @@
 # VB AI Context
 
-VB AI Context is a local-first knowledge system built from plain Markdown files. It combines My Thinking, built on the Zettelkasten method, for developing your own thinking; a curated Knowledge Base, inspired by Karpathy's curation approach, for external sources; and project instructions that let Codex or Claude work with the same context over time.
+VB AI Context is a local-first knowledge system built from plain Markdown files. It combines My Thinking, built on the Zettelkasten method, for developing your own thinking; a curated Knowledge Base, inspired by Karpathy's curation approach, for external sources; and project instructions that let OpenAI Codex or Claude Code work with the same context over time.
 
 Context is gold, and that's exactly what this system gives you: real control over your notes and your history, without depending on a single LLM account to keep executing your work.
 
@@ -8,18 +8,18 @@ Have 3 AI accounts and one just ran out of credits? Just connect another one. Th
 
 Using it is simple: open the folder in VS Code, Antigravity, another Markdown editor, or a terminal-based workflow. Obsidian is recommended, not required: it renders backlinks, graph navigation, Canvas, and focused reading, and its Web Clipper is the easiest way to capture full articles into the Knowledge Base. Without it, the system still works through plain Markdown and manual capture.
 
-The manual Markdown base requires no server, database, account, or domain. Keep it on your computer, or drop the folder into Google Drive, iCloud Drive, or Dropbox to sync it and get remote access. It's still just files, no server involved. Codex or Claude may require an account, authentication, or a paid plan, depending on the tool and provider.
+The manual Markdown base requires no server, database, account, or domain. Keep it on your computer, or drop the folder into Google Drive, iCloud Drive, or Dropbox to sync it and get remote access. It's still just files, no server involved. OpenAI Codex or Claude Code may require an account, authentication, or a paid plan, depending on the tool and provider.
 
-## Local-first by design
+## 🔒 Local-first by design
 
-Some AI-powered vault tools connect your notes to external APIs, such as live web research, social feeds, or transcript services, usually through paid keys. VB AI Context takes a different path: everything runs on your own notes, your own captures, and whatever Codex or Claude already read for you in the conversation. No API keys, no recurring cost beyond the AI tool itself.
+Some AI-powered vault tools connect your notes to external APIs, such as live web research, social feeds, or transcript services, usually through paid keys. VB AI Context takes a different path: everything runs on your own notes, your own captures, and whatever OpenAI Codex or Claude Code already read for you in the conversation. No API keys, no recurring cost beyond the AI tool itself.
 
-If live web research or external feeds fit your workflow better, nothing here stops you from adding that yourself. Codex and Claude can already search the web when you simply ask them to. That's a capability of the AI tool itself, not something this template wires in automatically or depends on.
+If live web research or external feeds fit your workflow better, nothing here stops you from adding that yourself. OpenAI Codex and Claude Code can already search the web when you simply ask them to. That's a capability of the AI tool itself, not something this template wires in automatically or depends on.
 
-## Start here
+## 🚀 Start here
 
 1. Read [START HERE](<🚀 START HERE/1 START HERE.md>).
-2. Follow [SETUP](<🚀 START HERE/2 SETUP.md>) to connect Codex or Claude.
+2. Follow [SETUP](<🚀 START HERE/2 SETUP.md>) to connect OpenAI Codex or Claude Code.
 3. Complete the included fictional walkthrough.
 4. Replace the examples only after you understand the two knowledge flows.
 
@@ -27,7 +27,7 @@ To capture complete web articles before running `kb-ingest`, follow the optional
 
 If your editor does not support wikilinks, open the files directly by path. Every wikilink points to a real Markdown file in this repository.
 
-## What is included
+## 🗂️ What is included
 
 - `X01 📥 Inbox/`: temporary captures and promoted ideas.
 - `X02 ✍️ My Thinking/`: floating, literature, and permanent notes.
@@ -42,21 +42,41 @@ If your editor does not support wikilinks, open the files directly by path. Ever
 
 Starter folders contain short, uniquely named `about-*` guides. These guides explain what belongs in each location while also preserving the folder structure in Git and downloaded ZIP files.
 
-## How the tools fit together
+## 🌍 Translate it to your language
+
+The visible structure, folder names, the onboarding guide, and index pages, can be translated into your own language on request, while `AGENTS.md`, `CLAUDE.md`, and the skills stay in English by default, so the AI's operating instructions don't lose precision.
+
+Reliable translation quality:
+
+🇧🇷 Portuguese Brazil
+🇵🇹 Portuguese
+🇪🇸 Spanish
+🇫🇷 French
+🇩🇪 German
+🇮🇹 Italian
+🇯🇵 Japanese
+🇨🇳 Chinese
+🌍 Another Languages
+
+Less common languages still work, but get flagged for review before you treat the vault as ready.
+
+This uses a meaningful amount of tokens from your AI plan, so it only runs when you explicitly ask for it. Just tell your agent: "translate this template to your language."
+
+## 🔧 How the tools fit together
 
 ```text
 local folder + Markdown
           |
-          +-- Codex or Claude: context, retrieval, synthesis, maintenance
+          +-- OpenAI Codex or Claude Code: context, retrieval, synthesis, maintenance
           |
           +-- everyday editor: VS Code, Antigravity, or another editor
           |
           +-- optional Obsidian: graph, backlinks, Canvas, and study
 ```
 
-Codex and Claude are alternatives. You only need one. A manual workflow remains available as a fallback, but the intended experience uses an AI agent that can read and edit this folder.
+OpenAI Codex and Claude Code are alternatives. You only need one. A manual workflow remains available as a fallback, but the intended experience uses an AI agent that can read and edit this folder.
 
-## Documentation
+## 📖 Documentation
 
 - [Project guide / Start here](<🚀 START HERE/1 START HERE.md>)
 - [Setup](<🚀 START HERE/2 SETUP.md>)
@@ -95,3 +115,10 @@ In short:
 - Share a modified version under this same license.
 
 This summary is not a substitute for the license itself. See the [human-readable deed](https://creativecommons.org/licenses/by-nc-sa/4.0/) for another short overview.
+
+## Credits
+
+This template's two knowledge flows are built on ideas from others:
+
+- [The Zettelkasten method](https://zettelkasten.de/overview/)
+- [Andrej Karpathy's note on curating a personal wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)

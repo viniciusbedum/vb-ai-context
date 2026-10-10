@@ -1,5 +1,7 @@
 # VB AI Context
 
+![VB AI Context in use: the vault folder structure next to Claude Code answering questions about the second brain](<🚀 START HERE/docs/background.png>)
+
 VB AI Context is a local-first knowledge system built from plain Markdown files. It combines My Thinking, built on the Zettelkasten method, for developing your own thinking; a curated Knowledge Base, inspired by Karpathy's curation approach, for external sources; and project instructions that let OpenAI Codex or Claude Code work with the same context over time.
 
 Context is gold, and that's exactly what this system gives you: real control over your notes and your history, without depending on a single LLM account to keep executing your work.
@@ -15,6 +17,25 @@ The manual Markdown base requires no server, database, account, or domain. Keep 
 Some AI-powered vault tools connect your notes to external APIs, such as live web research, social feeds, or transcript services, usually through paid keys. VB AI Context takes a different path: everything runs on your own notes, your own captures, and whatever OpenAI Codex or Claude Code already read for you in the conversation. No API keys, no recurring cost beyond the AI tool itself.
 
 If live web research or external feeds fit your workflow better, nothing here stops you from adding that yourself. OpenAI Codex and Claude Code can already search the web when you simply ask them to. That's a capability of the AI tool itself, not something this template wires in automatically or depends on.
+
+## 🏗️ Architecture at a glance
+
+Plain Markdown files are the source of truth. Editors are interchangeable interfaces, and the AI agent (Claude Code or Codex) is a swappable intelligence layer that reads `AGENTS.md` and works through seven skills.
+
+![VB AI Context architecture overview](<🚀 START HERE/docs/diagrams/architecture-overview.png>)
+
+<details>
+<summary>More diagrams: write permissions, knowledge flows, and skills</summary>
+
+### Write permission tiers
+
+![Vault structure and write permission tiers](<🚀 START HERE/docs/diagrams/architecture-write-permissions.png>)
+
+### Knowledge flows and skills
+
+![Knowledge flows and skills](<🚀 START HERE/docs/diagrams/architecture-workflows-and-skills.png>)
+
+</details>
 
 ## 🚀 Start here
 
